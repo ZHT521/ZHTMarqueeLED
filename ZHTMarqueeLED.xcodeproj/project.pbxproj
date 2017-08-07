@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33643D71F2AD06500F98524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C33643D61F2AD06500F98524 /* main.m */; };
+		C33643DA1F2AD06500F98524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C33643D91F2AD06500F98524 /* AppDelegate.m */; };
+		C33643DD1F2AD06500F98524 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33643DC1F2AD06500F98524 /* ViewController.m */; };
+		C33643E01F2AD06500F98524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33643DE1F2AD06500F98524 /* Main.storyboard */; };
+		C33643E21F2AD06500F98524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33643E11F2AD06500F98524 /* Assets.xcassets */; };
+		C33643E51F2AD06500F98524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33643E31F2AD06500F98524 /* LaunchScreen.storyboard */; };
+		C33643F01F2AD06500F98524 /* ZHTMarqueeLEDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33643EF1F2AD06500F98524 /* ZHTMarqueeLEDTests.m */; };
+		C33643FB1F2AD06500F98524 /* ZHTMarqueeLEDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33643FA1F2AD06500F98524 /* ZHTMarqueeLEDUITests.m */; };
+		C336440B1F2AD0C600F98524 /* ZHTMarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C336440A1F2AD0C600F98524 /* ZHTMarqueeLabel.m */; };
+		C336440D1F2ADA3B00F98524 /* i-lb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C336440C1F2ADA3B00F98524 /* i-lb@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33643EC1F2AD06500F98524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33643CA1F2AD06500F98524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33643D11F2AD06500F98524;
+			remoteInfo = ZHTMarqueeLED;
+		};
+		C33643F71F2AD06500F98524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33643CA1F2AD06500F98524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33643D11F2AD06500F98524;
+			remoteInfo = ZHTMarqueeLED;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C33643D21F2AD06500F98524 /* ZHTMarqueeLED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHTMarqueeLED.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33643D61F2AD06500F98524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C33643D81F2AD06500F98524 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C33643D91F2AD06500F98524 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C33643DB1F2AD06500F98524 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C33643DC1F2AD06500F98524 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C33643DF1F2AD06500F98524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C33643E11F2AD06500F98524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C33643E41F2AD06500F98524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C33643E61F2AD06500F98524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33643EB1F2AD06500F98524 /* ZHTMarqueeLEDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHTMarqueeLEDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33643EF1F2AD06500F98524 /* ZHTMarqueeLEDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHTMarqueeLEDTests.m; sourceTree = "<group>"; };
+		C33643F11F2AD06500F98524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33643F61F2AD06500F98524 /* ZHTMarqueeLEDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHTMarqueeLEDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33643FA1F2AD06500F98524 /* ZHTMarqueeLEDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHTMarqueeLEDUITests.m; sourceTree = "<group>"; };
+		C33643FC1F2AD06500F98524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33644091F2AD0C600F98524 /* ZHTMarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTMarqueeLabel.h; sourceTree = "<group>"; };
+		C336440A1F2AD0C600F98524 /* ZHTMarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTMarqueeLabel.m; sourceTree = "<group>"; };
+		C336440C1F2ADA3B00F98524 /* i-lb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-lb@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33643CF1F2AD06500F98524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33643E81F2AD06500F98524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33643F31F2AD06500F98524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33643C91F2AD06500F98524 = {
+			isa = PBXGroup;
+			children = (
+				C33643D41F2AD06500F98524 /* ZHTMarqueeLED */,
+				C33643EE1F2AD06500F98524 /* ZHTMarqueeLEDTests */,
+				C33643F91F2AD06500F98524 /* ZHTMarqueeLEDUITests */,
+				C33643D31F2AD06500F98524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33643D31F2AD06500F98524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33643D21F2AD06500F98524 /* ZHTMarqueeLED.app */,
+				C33643EB1F2AD06500F98524 /* ZHTMarqueeLEDTests.xctest */,
+				C33643F61F2AD06500F98524 /* ZHTMarqueeLEDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33643D41F2AD06500F98524 /* ZHTMarqueeLED */ = {
+			isa = PBXGroup;
+			children = (
+				C33644081F2AD07100F98524 /* ZHTMarqueeLabel */,
+				C33643D81F2AD06500F98524 /* AppDelegate.h */,
+				C33643D91F2AD06500F98524 /* AppDelegate.m */,
+				C33643DB1F2AD06500F98524 /* ViewController.h */,
+				C33643DC1F2AD06500F98524 /* ViewController.m */,
+				C33643DE1F2AD06500F98524 /* Main.storyboard */,
+				C33643E11F2AD06500F98524 /* Assets.xcassets */,
+				C33643E31F2AD06500F98524 /* LaunchScreen.storyboard */,
+				C33643E61F2AD06500F98524 /* Info.plist */,
+				C33643D51F2AD06500F98524 /* Supporting Files */,
+			);
+			path = ZHTMarqueeLED;
+			sourceTree = "<group>";
+		};
+		C33643D51F2AD06500F98524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33643D61F2AD06500F98524 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C33643EE1F2AD06500F98524 /* ZHTMarqueeLEDTests */ = {
+			isa = PBXGroup;
+			children = (
+				C33643EF1F2AD06500F98524 /* ZHTMarqueeLEDTests.m */,
+				C33643F11F2AD06500F98524 /* Info.plist */,
+			);
+			path = ZHTMarqueeLEDTests;
+			sourceTree = "<group>";
+		};
+		C33643F91F2AD06500F98524 /* ZHTMarqueeLEDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C33643FA1F2AD06500F98524 /* ZHTMarqueeLEDUITests.m */,
+				C33643FC1F2AD06500F98524 /* Info.plist */,
+			);
+			path = ZHTMarqueeLEDUITests;
+			sourceTree = "<group>";
+		};
+		C33644081F2AD07100F98524 /* ZHTMarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C336440C1F2ADA3B00F98524 /* i-lb@2x.png */,
+				C33644091F2AD0C600F98524 /* ZHTMarqueeLabel.h */,
+				C336440A1F2AD0C600F98524 /* ZHTMarqueeLabel.m */,
+			);
+			name = ZHTMarqueeLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33643D11F2AD06500F98524 /* ZHTMarqueeLED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33643FF1F2AD06500F98524 /* Build configuration list for PBXNativeTarget "ZHTMarqueeLED" */;
+			buildPhases = (
+				C33643CE1F2AD06500F98524 /* Sources */,
+				C33643CF1F2AD06500F98524 /* Frameworks */,
+				C33643D01F2AD06500F98524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHTMarqueeLED;
+			productName = ZHTMarqueeLED;
+			productReference = C33643D21F2AD06500F98524 /* ZHTMarqueeLED.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C33643EA1F2AD06500F98524 /* ZHTMarqueeLEDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33644021F2AD06500F98524 /* Build configuration list for PBXNativeTarget "ZHTMarqueeLEDTests" */;
+			buildPhases = (
+				C33643E71F2AD06500F98524 /* Sources */,
+				C33643E81F2AD06500F98524 /* Frameworks */,
+				C33643E91F2AD06500F98524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33643ED1F2AD06500F98524 /* PBXTargetDependency */,
+			);
+			name = ZHTMarqueeLEDTests;
+			productName = ZHTMarqueeLEDTests;
+			productReference = C33643EB1F2AD06500F98524 /* ZHTMarqueeLEDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C33643F51F2AD06500F98524 /* ZHTMarqueeLEDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33644051F2AD06500F98524 /* Build configuration list for PBXNativeTarget "ZHTMarqueeLEDUITests" */;
+			buildPhases = (
+				C33643F21F2AD06500F98524 /* Sources */,
+				C33643F31F2AD06500F98524 /* Frameworks */,
+				C33643F41F2AD06500F98524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33643F81F2AD06500F98524 /* PBXTargetDependency */,
+			);
+			name = ZHTMarqueeLEDUITests;
+			productName = ZHTMarqueeLEDUITests;
+			productReference = C33643F61F2AD06500F98524 /* ZHTMarqueeLEDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33643CA1F2AD06500F98524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hebccc;
+				TargetAttributes = {
+					C33643D11F2AD06500F98524 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MBD4668B87;
+						ProvisioningStyle = Automatic;
+					};
+					C33643EA1F2AD06500F98524 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MBD4668B87;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C33643D11F2AD06500F98524;
+					};
+					C33643F51F2AD06500F98524 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MBD4668B87;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C33643D11F2AD06500F98524;
+					};
+				};
+			};
+			buildConfigurationList = C33643CD1F2AD06500F98524 /* Build configuration list for PBXProject "ZHTMarqueeLED" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C33643C91F2AD06500F98524;
+			productRefGroup = C33643D31F2AD06500F98524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33643D11F2AD06500F98524 /* ZHTMarqueeLED */,
+				C33643EA1F2AD06500F98524 /* ZHTMarqueeLEDTests */,
+				C33643F51F2AD06500F98524 /* ZHTMarqueeLEDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33643D01F2AD06500F98524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C336440D1F2ADA3B00F98524 /* i-lb@2x.png in Resources */,
+				C33643E51F2AD06500F98524 /* LaunchScreen.storyboard in Resources */,
+				C33643E21F2AD06500F98524 /* Assets.xcassets in Resources */,
+				C33643E01F2AD06500F98524 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33643E91F2AD06500F98524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33643F41F2AD06500F98524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33643CE1F2AD06500F98524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33643DD1F2AD06500F98524 /* ViewController.m in Sources */,
+				C33643DA1F2AD06500F98524 /* AppDelegate.m in Sources */,
+				C336440B1F2AD0C600F98524 /* ZHTMarqueeLabel.m in Sources */,
+				C33643D71F2AD06500F98524 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33643E71F2AD06500F98524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33643F01F2AD06500F98524 /* ZHTMarqueeLEDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33643F21F2AD06500F98524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33643FB1F2AD06500F98524 /* ZHTMarqueeLEDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C33643ED1F2AD06500F98524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33643D11F2AD06500F98524 /* ZHTMarqueeLED */;
+			targetProxy = C33643EC1F2AD06500F98524 /* PBXContainerItemProxy */;
+		};
+		C33643F81F2AD06500F98524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33643D11F2AD06500F98524 /* ZHTMarqueeLED */;
+			targetProxy = C33643F71F2AD06500F98524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C33643DE1F2AD06500F98524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33643DF1F2AD06500F98524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C33643E31F2AD06500F98524 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33643E41F2AD06500F98524 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C33643FD1F2AD06500F98524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C33643FE1F2AD06500F98524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C33644001F2AD06500F98524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MBD4668B87;
+				INFOPLIST_FILE = ZHTMarqueeLED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testbtn.ZHTMarqueeLED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C33644011F2AD06500F98524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MBD4668B87;
+				INFOPLIST_FILE = ZHTMarqueeLED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testbtn.ZHTMarqueeLED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C33644031F2AD06500F98524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MBD4668B87;
+				INFOPLIST_FILE = ZHTMarqueeLEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testbtn.ZHTMarqueeLEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHTMarqueeLED.app/ZHTMarqueeLED";
+			};
+			name = Debug;
+		};
+		C33644041F2AD06500F98524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MBD4668B87;
+				INFOPLIST_FILE = ZHTMarqueeLEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testbtn.ZHTMarqueeLEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHTMarqueeLED.app/ZHTMarqueeLED";
+			};
+			name = Release;
+		};
+		C33644061F2AD06500F98524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MBD4668B87;
+				INFOPLIST_FILE = ZHTMarqueeLEDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testbtn.ZHTMarqueeLEDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHTMarqueeLED;
+			};
+			name = Debug;
+		};
+		C33644071F2AD06500F98524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MBD4668B87;
+				INFOPLIST_FILE = ZHTMarqueeLEDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testbtn.ZHTMarqueeLEDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHTMarqueeLED;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33643CD1F2AD06500F98524 /* Build configuration list for PBXProject "ZHTMarqueeLED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33643FD1F2AD06500F98524 /* Debug */,
+				C33643FE1F2AD06500F98524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33643FF1F2AD06500F98524 /* Build configuration list for PBXNativeTarget "ZHTMarqueeLED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33644001F2AD06500F98524 /* Debug */,
+				C33644011F2AD06500F98524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C33644021F2AD06500F98524 /* Build configuration list for PBXNativeTarget "ZHTMarqueeLEDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33644031F2AD06500F98524 /* Debug */,
+				C33644041F2AD06500F98524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C33644051F2AD06500F98524 /* Build configuration list for PBXNativeTarget "ZHTMarqueeLEDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33644061F2AD06500F98524 /* Debug */,
+				C33644071F2AD06500F98524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33643CA1F2AD06500F98524 /* Project object */;
+}
